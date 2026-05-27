@@ -1,122 +1,128 @@
-
 <!DOCTYPE html>
 
-<html class="scroll-smooth" lang="hy"><head>
+<html class="dark" lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>FLAME &amp; GRIT | Պրեմիում Բուրգերներ</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Inter:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800;900&amp;family=Plus+Jakarta+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <script id="tailwind-config">
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            "colors": {
-                    "background": "#fcf9f8",
-                    "surface-container-low": "#f6f3f2",
-                    "secondary-fixed": "#e5e2e1",
-                    "tertiary-fixed": "#e6e2dc",
-                    "on-surface-variant": "#5d3f3b",
-                    "inverse-surface": "#303030",
-                    "surface-tint": "#c00205",
-                    "surface": "#fcf9f8",
-                    "surface-container-high": "#eae7e7",
-                    "on-tertiary-fixed": "#1c1c18",
-                    "primary-fixed-dim": "#ffb4a9",
-                    "primary-container": "#e1271c",
-                    "on-secondary": "#ffffff",
-                    "error": "#ba1a1a",
-                    "outline-variant": "#e7bdb7",
-                    "on-primary-fixed": "#410000",
-                    "inverse-primary": "#ffb4a9",
-                    "surface-bright": "#fcf9f8",
-                    "surface-dim": "#dcd9d9",
-                    "on-secondary-container": "#656464",
-                    "surface-container": "#f0eded",
-                    "primary-fixed": "#ffdad5",
-                    "inverse-on-surface": "#f3f0f0",
-                    "secondary-container": "#e5e2e1",
-                    "primary": "#bc0004",
-                    "on-tertiary": "#ffffff",
-                    "tertiary": "#5d5c57",
-                    "surface-container-highest": "#e4e2e1",
-                    "tertiary-container": "#767470",
-                    "on-error": "#ffffff",
-                    "on-background": "#1b1c1c",
-                    "on-secondary-fixed": "#1c1b1b",
-                    "outline": "#926f6a",
-                    "on-tertiary-fixed-variant": "#484743",
-                    "on-primary-fixed-variant": "#930002",
-                    "error-container": "#ffdad6",
-                    "surface-variant": "#e4e2e1",
-                    "surface-container-lowest": "#ffffff",
-                    "secondary": "#5f5e5e",
-                    "on-primary": "#ffffff",
-                    "on-error-container": "#93000a",
-                    "on-secondary-fixed-variant": "#474646",
-                    "secondary-fixed-dim": "#c8c6c5",
-                    "on-tertiary-container": "#fffbff",
-                    "on-surface": "#1b1c1c",
-                    "on-primary-container": "#fffbff",
-                    "tertiary-fixed-dim": "#c9c6c1"
-            },
-            "borderRadius": {
-                    "DEFAULT": "0.25rem",
-                    "lg": "0.5rem",
-                    "xl": "0.75rem",
-                    "full": "9999px"
-            },
-            "spacing": {
-                    "stack-md": "32px",
-                    "stack-lg": "64px",
-                    "base": "8px",
-                    "margin-mobile": "20px",
-                    "gutter": "24px",
-                    "margin-desktop": "64px",
-                    "container-max": "1280px",
-                    "stack-sm": "16px"
-            },
-            "fontFamily": {
-                    "headline-md": ["Epilogue"],
-                    "headline-lg": ["Epilogue"],
-                    "label-lg": ["Plus Jakarta Sans"],
-                    "body-lg": ["Plus Jakarta Sans"],
-                    "display-lg-mobile": ["Epilogue"],
-                    "headline-lg-mobile": ["Epilogue"],
-                    "display-lg": ["Epilogue"],
-                    "body-md": ["Plus Jakarta Sans"],
-                    "label-sm": ["Plus Jakarta Sans"]
-            },
-            "fontSize": {
-                    "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "700"}],
-                    "headline-lg": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
-                    "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "700"}],
-                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
-                    "display-lg-mobile": ["48px", {"lineHeight": "52px", "letterSpacing": "-0.04em", "fontWeight": "800"}],
-                    "headline-lg-mobile": ["32px", {"lineHeight": "38px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
-                    "display-lg": ["72px", {"lineHeight": "76px", "letterSpacing": "-0.04em", "fontWeight": "800"}],
-                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
-                    "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "600"}]
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-primary-fixed": "#410000",
+                        "secondary": "#ffbd5f",
+                        "surface-container-lowest": "#0e0e0e",
+                        "on-primary-fixed-variant": "#930002",
+                        "surface-tint": "#ffb4a9",
+                        "primary-fixed": "#ffdad5",
+                        "error": "#ffb4ab",
+                        "outline-variant": "#5d3f3b",
+                        "on-tertiary-fixed": "#001e30",
+                        "inverse-primary": "#c00205",
+                        "secondary-fixed-dim": "#ffb953",
+                        "surface-container": "#201f1f",
+                        "on-primary-container": "#5c0001",
+                        "on-surface": "#e5e2e1",
+                        "on-secondary-container": "#5c3a00",
+                        "surface-container-highest": "#353534",
+                        "tertiary-fixed": "#cae6ff",
+                        "surface-dim": "#131313",
+                        "surface-container-high": "#2a2a2a",
+                        "on-surface-variant": "#e7bdb7",
+                        "tertiary-fixed-dim": "#8ecdff",
+                        "surface-container-low": "#1c1b1b",
+                        "on-error-container": "#ffdad6",
+                        "secondary-container": "#ed9d01",
+                        "on-tertiary-fixed-variant": "#004b70",
+                        "on-tertiary": "#00344f",
+                        "background": "#131313",
+                        "primary-fixed-dim": "#ffb4a9",
+                        "surface-variant": "#353534",
+                        "on-secondary-fixed": "#291800",
+                        "tertiary-container": "#3198d7",
+                        "error-container": "#93000a",
+                        "inverse-on-surface": "#313030",
+                        "on-error": "#690005",
+                        "surface": "#131313",
+                        "on-primary": "#690001",
+                        "on-tertiary-container": "#002d45",
+                        "inverse-surface": "#e5e2e1",
+                        "on-secondary": "#452b00",
+                        "primary": "#ffb4a9",
+                        "surface-bright": "#393939",
+                        "on-secondary-fixed-variant": "#633f00",
+                        "on-background": "#e5e2e1",
+                        "primary-container": "#ff5543",
+                        "tertiary": "#8ecdff",
+                        "outline": "#ad8882",
+                        "secondary-fixed": "#ffddb4"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "base": "8px",
+                        "container-max": "1280px",
+                        "lg": "48px",
+                        "md": "24px",
+                        "sm": "12px",
+                        "xs": "4px",
+                        "gutter": "24px",
+                        "xl": "80px"
+                    },
+                    "fontFamily": {
+                        "display-lg": ["Bebas Neue"],
+                        "display-lg-mobile": ["Bebas Neue"],
+                        "body-lg": ["Inter"],
+                        "headline-md": ["Bebas Neue"],
+                        "headline-xl": ["Bebas Neue"],
+                        "label-bold": ["Inter"],
+                        "headline-xl-mobile": ["Bebas Neue"],
+                        "body-md": ["Inter"]
+                    },
+                    "fontSize": {
+                        "display-lg": ["80px", {"lineHeight": "80px", "letterSpacing": "0.02em", "fontWeight": "400"}],
+                        "display-lg-mobile": ["48px", {"lineHeight": "48px", "letterSpacing": "0.02em", "fontWeight": "400"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "headline-md": ["24px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "headline-xl": ["48px", {"lineHeight": "48px", "fontWeight": "400"}],
+                        "label-bold": ["14px", {"lineHeight": "20px", "fontWeight": "700"}],
+                        "headline-xl-mobile": ["32px", {"lineHeight": "32px", "fontWeight": "400"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}]
+                    }
+                }
             }
-          },
-        },
-      }
+        }
     </script>
 <style>
         .material-symbols-outlined {
             font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            line-height: 1;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
         }
-        .dot-leader {
-            flex-grow: 1;
-            border-bottom: 1px dotted #926f6a;
-            margin: 0 8px;
-            opacity: 0.3;
+        .ember-glow {
+            box-shadow: 0 0 40px -10px rgba(255, 180, 169, 0.15);
         }
-        .reveal { opacity: 0; transform: translateY(20px); transition: all 0.6s ease-out; }
-        .reveal.active { opacity: 1; transform: translateY(0); }
+        .glass-card {
+            background: rgba(42, 42, 42, 0.6);
+            backdrop-filter: blur(12px);
+        }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #131313; }
+        ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #ffb4a9; }
     </style>
 <style>
     body {
@@ -124,332 +130,220 @@
     }
   </style>
   </head>
-<body class="bg-background text-on-background font-body-md selection:bg-primary/20">
-<!-- TopAppBar -->
-<header class="bg-surface dark:bg-inverse-surface border-b border-on-surface/10 shadow-[0_15px_30px_-5px_rgba(188,2,5,0.06)] flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop h-16 z-50 fixed top-0 left-0">
-<div class="flex items-center gap-4">
-<span class="material-symbols-outlined text-primary cursor-pointer hover:opacity-80 transition-opacity">menu</span>
-<span class="font-headline-md text-headline-md font-extrabold tracking-tighter text-primary dark:text-inverse-primary">FLAME &amp; GRIT</span>
+<body class="bg-background text-on-background font-body-md selection:bg-primary selection:text-on-primary-container overflow-x-hidden">
+<!-- Top Navigation Shell -->
+<header class="fixed top-0 w-full z-50 bg-background/90 backdrop-blur-md">
+<nav class="flex items-center justify-between px-md py-sm w-full max-w-container-max mx-auto h-20">
+<div class="flex items-center gap-xs">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="local_fire_department">local_fire_department</span>
+<span class="font-display-lg text-display-lg-mobile md:text-display-lg text-primary uppercase tracking-wider">SIZZLE &amp; GRAIN</span>
 </div>
-<div class="flex items-center gap-4">
-<span class="material-symbols-outlined text-primary cursor-pointer hover:opacity-80 transition-opacity">shopping_cart</span>
+<div class="hidden md:flex items-center gap-lg">
+<a class="font-label-bold text-label-bold uppercase text-on-surface-variant hover:text-secondary transition-colors" href="#">Menu</a>
+<a class="font-label-bold text-label-bold uppercase text-primary border-b-2 border-primary" href="#">Our Story</a>
+<a class="font-label-bold text-label-bold uppercase text-on-surface-variant hover:text-secondary transition-colors" href="#">Gallery</a>
+<a class="bg-primary px-md py-sm rounded-none font-display-lg text-on-primary uppercase transition-transform active:scale-95 text-xl" href="#">Book Now</a>
 </div>
+<div class="flex items-center gap-md md:hidden">
+<span class="material-symbols-outlined text-primary text-2xl" data-icon="shopping_cart">shopping_cart</span>
+<span class="material-symbols-outlined text-on-surface text-2xl" data-icon="menu">menu</span>
+</div>
+</nav>
 </header>
-<main class="pt-16 pb-24 md:pb-0">
+<main class="pt-20">
 <!-- Hero Section -->
-<section class="relative min-h-[751px] flex flex-col justify-end px-margin-mobile pb-stack-lg overflow-hidden">
-<div class="absolute inset-0 z-0">
-<img alt="Smashed Burger Hero" class="w-full h-full object-cover" data-alt="A macro shot of a gourmet smashed beef burger on a warm, toasted brioche bun, featuring melting cheddar cheese and fresh green lettuce. The lighting is dramatic and warm, emphasizing the textures of the crispy charred edges of the beef patty. The background is a sophisticated, dark moody kitchen setting with professional food photography styling." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDB91fTOqSXgmP73d5MJcWTd6rL7OxTjCV0cHifeCru-q2rcX4_6GIckrPNlnCZDYR9PnC7GlX3RaJ64ZCg4hkig4cnCx_vxKPKetMqECRi43TS7Z8GTxHXlIsfORCjVkEB0dxr9xrkmXHrsWe_ZhzuhDCO3v6RO1sjQgP9gjyZbmdHzp80hbkjiL0UOhPOwMe1eEbPLn49L-S1VUYmmD7NewXCzlOwUfwzwmIBX74ZGCwM_04TMcjHzb7tGGfrrGN5eKb3popuak4u"/>
-<div class="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent"></div>
-</div>
-<div class="relative z-10 space-y-stack-sm reveal">
-<h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-on-background">
-                    Տրորված։<br/>Շարված։<br/>Մատուցված։
-                </h1>
-<p class="font-headline-md text-headline-md text-primary max-w-lg">
-                    Բուրգերներ քաղցածների համար։
+<section class="relative w-full h-[795px] overflow-hidden flex items-center justify-center">
+<img alt="Professional Kitchen" class="absolute inset-0 w-full h-full object-cover grayscale-[20%] contrast-[1.1]" data-alt="A cinematic, low-light photograph of a professional industrial kitchen interior. Stainless steel surfaces catch the warm, atmospheric glow from copper heat lamps. Professional chefs in white coats are blurred in the background, focusing on the high-velocity energy of a dinner service. The overall mood is intense, premium, and artisanal, dominated by deep charcoal tones and ember orange highlights." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFreM2XVhjtJVUuXBSdMQtmtaQBcCOKQUXwMd-FmETi1H9DOlJdKTFdS8KiIwBtNp91TNtLyG25Z0YvKH2TF-0NFWpHocVhBOD7Yu4ghEsxydUceiy9YCjpwIfJtB_79k4dwRou2kX_gcGXBx1AXlNG_mvY40JMPaV191BojIWHGeR0Dwn0B_mW3KE1QHYCJrVj3QbP3BKvO9qlhkRdnnDfFt87svOIXRMT6fJ9KdtABi5vIWYypPy9CjjOOkLX9HNev6UfK1_B6cz"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-background/50"></div>
+<div class="relative z-10 text-center px-md max-w-4xl">
+<h1 class="font-display-lg text-display-lg-mobile md:text-display-lg text-on-background uppercase mb-md leading-none">
+                    The Art of <span class="text-primary">The Smash</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-lg max-w-2xl mx-auto">
+                    Where industrial precision meets the raw intensity of the open flame. We don't just cook burgers; we engineer a sensory explosion, one stack at a time.
                 </p>
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-md">
-                    Ձեռքով պատրաստված կոտլետներ, թարմ թխած բուլկիներ և սոուսներ՝ ամեն առավոտ զրոյից։
-                </p>
-<div class="flex flex-wrap gap-4 pt-4">
-<button class="bg-primary text-on-primary px-10 py-5 rounded-xl font-headline-md hover:scale-[1.02] active:scale-95 transition-all shadow-lg shadow-primary/20">
-                        Պատվիրել
+<div class="flex flex-col sm:flex-row items-center justify-center gap-md">
+<button class="w-full sm:w-auto bg-primary text-on-primary-container px-xl py-md font-display-lg text-3xl uppercase transition-all hover:scale-105 active:scale-95 ember-glow">
+                        View The Menu
                     </button>
-<button class="border-2 border-on-background text-on-background px-10 py-5 rounded-xl font-headline-md hover:bg-on-background hover:text-background transition-all">
-                        Տեսնել մենյուն
+<button class="w-full sm:w-auto border border-primary text-primary px-xl py-md font-display-lg text-3xl uppercase transition-all hover:bg-primary/10">
+                        Reserve Table
                     </button>
 </div>
-<!-- Trust Badges -->
-<div class="flex items-center gap-gutter pt-8 overflow-x-auto no-scrollbar">
-<div class="flex items-center gap-2 whitespace-nowrap">
-<span class="text-primary font-bold">4.9★</span>
-<span class="text-label-sm uppercase tracking-widest text-on-surface-variant">Rating</span>
 </div>
-<div class="flex items-center gap-2 whitespace-nowrap">
-<span class="text-primary font-bold">2,400+</span>
-<span class="text-label-sm uppercase tracking-widest text-on-surface-variant">Reviews</span>
+</section>
+<!-- Section: The Cook (Marcus Grain) -->
+<section class="py-xl px-md max-w-container-max mx-auto grid md:grid-cols-2 gap-xl items-center">
+<div class="relative order-2 md:order-1">
+<div class="absolute -top-gutter -left-gutter w-32 h-32 bg-primary-container/20 z-0"></div>
+<div class="relative z-10 p-sm bg-surface-container-high ember-glow overflow-hidden">
+<img alt="Chef Marcus Grain" class="w-full aspect-[4/5] object-cover" data-alt="A portrait of a master chef with intense focus, working in a high-end urban kitchen environment. The chef is dressed in a crisp, white professional apron. The lighting is dramatic, with side-lighting highlighting the steam and textures of the food preparation. The aesthetic is industrial and sophisticated, featuring the deep charcoal and ember orange color palette of Sizzle and Grain." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3U0C7EIrfupyHqHwITmM3U-Vjoasnaw83LpGro3yXDi1l400zfMdN0Ea8DUrGmnk1AoByL2ywrKnvbSRI5KKRwvZ9GpOANNI-l6IxJ6UtT-6yEUdc3OGRwbCoHB7SI66Il4yn1Qe2bj2W5JrFFUbsRBmQlviRDMc2_z6jzDsEI45iq1jd0Sowbj8sxDlullCaGNaJgLGegaeLykr4yC4F2rTkhhYP6auSjU9tuRbdG7qh4N4drpFnQvuPC4_QtedjZ0_QCJIK3xVV"/>
 </div>
-<div class="flex items-center gap-2 whitespace-nowrap">
-<span class="text-primary font-bold">10y</span>
-<span class="text-label-sm uppercase tracking-widest text-on-surface-variant">Experience</span>
+<div class="absolute -bottom-gutter -right-gutter font-display-lg text-[120px] leading-none text-surface-container-highest select-none -z-10 opacity-50">GRAIN</div>
+</div>
+<div class="order-1 md:order-2 flex flex-col gap-md">
+<span class="font-label-bold text-label-bold text-secondary uppercase tracking-[0.2em]">The Visionary</span>
+<h2 class="font-display-lg text-display-lg-mobile md:text-headline-xl text-on-background uppercase">Marcus Grain</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                    Marcus spent a decade in the high-pressure kitchens of London and New York before returning to the raw roots of the grill. To him, the burger is the ultimate canvas of texture. 
+                </p>
+<div class="grid grid-cols-2 gap-md mt-sm">
+<div class="border-l-2 border-primary pl-md py-xs">
+<div class="font-display-lg text-headline-md text-primary">15+</div>
+<div class="font-label-bold text-xs uppercase text-on-surface-variant">Years of Fire</div>
+</div>
+<div class="border-l-2 border-primary pl-md py-xs">
+<div class="font-display-lg text-headline-md text-primary">100%</div>
+<div class="font-label-bold text-xs uppercase text-on-surface-variant">Hand Smashed</div>
+</div>
+</div>
+<blockquote class="italic text-on-surface font-body-lg border-l-4 border-secondary pl-md mt-md">
+                    "If it doesn't sizzle when it hits the steel, it's not a burger. It's just bread."
+                </blockquote>
+</div>
+</section>
+<!-- Section: The Skillet (Cast-iron heritage) -->
+<section class="bg-surface-container-low py-xl overflow-hidden">
+<div class="max-w-container-max mx-auto px-md grid md:grid-cols-12 gap-gutter items-center">
+<div class="md:col-span-5 flex flex-col gap-md">
+<span class="font-label-bold text-label-bold text-secondary uppercase tracking-[0.2em]">The Tool</span>
+<h2 class="font-display-lg text-display-lg-mobile md:text-headline-xl text-on-background uppercase">Forged In Iron</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                        Our custom-milled cast iron skillets are maintained at a precise 450 degrees. This extreme heat creates the 'Maillard reaction'—the scientific magic that transforms fresh beef into a caramelized, crispy masterpiece.
+                    </p>
+<ul class="space-y-sm mt-md">
+<li class="flex items-center gap-sm">
+<span class="material-symbols-outlined text-primary" data-icon="check_circle">check_circle</span>
+<span class="font-label-bold text-on-surface uppercase">Heat Retention Technology</span>
+</li>
+<li class="flex items-center gap-sm">
+<span class="material-symbols-outlined text-primary" data-icon="check_circle">check_circle</span>
+<span class="font-label-bold text-on-surface uppercase">Artisanal Seasoning Process</span>
+</li>
+</ul>
+</div>
+<div class="md:col-span-7 relative flex justify-end">
+<div class="w-full h-[500px] bg-background rounded-xl overflow-hidden ember-glow border border-surface-container-high relative group">
+<img alt="Smashed Burger" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="A hyper-detailed, close-up shot of a burger patty being smashed onto a hot, seasoned cast-iron griddle. Sparks and smoke rise as the beef caramelizes, creating a rich brown crust. The lighting is high-contrast, emphasizing the glistening fat and the rough texture of the iron. The image radiates heat and intense energy, consistent with the Sizzle and Grain industrial premium style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAq_AdOSGnlCCiUyBbZd-ax2nTEBi4uGZPFBemv8TASA7prJiwZ4YA1qSPsdnKLocHVOHyeMh-C6zI7NRkahp7K_ArXI80waY3dJAUgZ4N3veRFa9hpKnvL7ICwZ9eMKocsInIG3NuFBLX0-1ceFkSwAQj_eDjVp1lWTJGfhXRSg91aoeoq1-pKKBGJAWSbuea2XWtdXZT4kF2-HIF1mvh_si8lvwY7MId_cFvfFXXyRYGRrIg5AygJEKPlZW9I3nAURGzjW1szugOx"/>
+<div class="absolute inset-0 bg-gradient-to-r from-background to-transparent md:block hidden"></div>
 </div>
 </div>
 </div>
 </section>
-<!-- Booking Form (Mobile Task Card Style) -->
-<section class="px-margin-mobile -mt-12 relative z-20 reveal">
-<div class="bg-surface-container-lowest border border-on-surface/5 rounded-[32px] p-8 shadow-[0_20px_50px_-20px_rgba(0,0,0,0.1)]">
-<h3 class="font-headline-md text-headline-md mb-6 text-on-background">Ամրագրեք ձեր համը</h3>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-<div class="space-y-2">
-<label class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest">Ի՞նչ եք ուզում</label>
-<select class="w-full bg-surface-container border-none rounded-xl py-4 px-5 focus:ring-2 focus:ring-primary font-body-md">
-<option>Ընտրեք համը</option>
-<option>Դասական</option>
-<option>Ինֆերնո</option>
-<option>Տրյուֆել Ռոյալ</option>
-</select>
+<!-- Section: The Belief (Bento Grid) -->
+<section class="py-xl px-md max-w-container-max mx-auto">
+<div class="text-center mb-xl">
+<h2 class="font-display-lg text-display-lg-mobile md:text-display-lg text-on-background uppercase">The Three Pillars</h2>
+<div class="h-1 w-24 bg-primary mx-auto"></div>
 </div>
-<div class="space-y-2">
-<label class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest">Ինչպե՞ս</label>
-<select class="w-full bg-surface-container border-none rounded-xl py-4 px-5 focus:ring-2 focus:ring-primary font-body-md">
-<option>ASAP / Մոտեցում</option>
-<option>Առաքում</option>
-</select>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-md">
+<div class="glass-card p-lg flex flex-col gap-sm border border-surface-container-highest transition-all hover:-translate-y-2 hover:border-primary/50 group">
+<span class="material-symbols-outlined text-primary text-4xl mb-sm" data-icon="restaurant">restaurant</span>
+<h3 class="font-display-lg text-headline-md text-on-background uppercase">Smashed</h3>
+<p class="text-on-surface-variant">The soul of our technique. We apply max-force pressure to unlock flavors that remain dormant in traditional grilling.</p>
 </div>
-<div class="flex items-end">
-<button class="w-full bg-inverse-surface text-background h-[56px] rounded-xl font-headline-md hover:bg-primary transition-colors flex items-center justify-center gap-2">
-<span>Սկսել պատվերը</span>
-<span class="material-symbols-outlined">arrow_forward</span>
-</button>
+<div class="bg-primary p-lg flex flex-col gap-sm transition-all hover:-translate-y-2 group">
+<span class="material-symbols-outlined text-on-primary-container text-4xl mb-sm" data-icon="layers">layers</span>
+<h3 class="font-display-lg text-headline-md text-on-primary-container uppercase">Stacked</h3>
+<p class="text-on-primary-container">Architecture matters. We layer artisanal toppings to create a vertical journey of flavor in every bite.</p>
 </div>
+<div class="glass-card p-lg flex flex-col gap-sm border border-surface-container-highest transition-all hover:-translate-y-2 hover:border-primary/50 group">
+<span class="material-symbols-outlined text-primary text-4xl mb-sm" data-icon="speed">speed</span>
+<h3 class="font-display-lg text-headline-md text-on-background uppercase">Served</h3>
+<p class="text-on-surface-variant">Precision at pace. Our high-velocity kitchen ensures your stack hits the table at the peak of its temperature.</p>
 </div>
 </div>
 </section>
-<!-- Menu Section -->
-<section class="px-margin-mobile py-stack-lg max-w-container-max mx-auto reveal">
-<div class="flex flex-col md:flex-row md:items-end justify-between gap-gutter mb-stack-md">
-<div>
-<span class="text-primary font-bold tracking-tighter text-body-lg">— Վեց ֆիրմային</span>
-<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg">Առանց զիջումների։</h2>
-</div>
-<div class="flex gap-2 overflow-x-auto pb-2 no-scrollbar">
-<button class="bg-primary text-on-primary px-6 py-2 rounded-full text-label-lg whitespace-nowrap">Բոլորը</button>
-<button class="bg-surface-container text-on-surface-variant px-6 py-2 rounded-full text-label-lg hover:bg-secondary-container transition-colors whitespace-nowrap">Դասական</button>
-<button class="bg-surface-container text-on-surface-variant px-6 py-2 rounded-full text-label-lg hover:bg-secondary-container transition-colors whitespace-nowrap">Կծու</button>
-<button class="bg-surface-container text-on-surface-variant px-6 py-2 rounded-full text-label-lg hover:bg-secondary-container transition-colors whitespace-nowrap">Բուսական</button>
+<!-- CTA Section -->
+<section class="py-xl bg-surface-container-highest relative overflow-hidden">
+<div class="absolute inset-0 opacity-10">
+<div class="grid grid-cols-6 h-full">
+<div class="border-r border-on-surface-variant/20"></div>
+<div class="border-r border-on-surface-variant/20"></div>
+<div class="border-r border-on-surface-variant/20"></div>
+<div class="border-r border-on-surface-variant/20"></div>
+<div class="border-r border-on-surface-variant/20"></div>
 </div>
 </div>
-<!-- Menu Bento Grid -->
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
-<!-- Item 1 -->
-<div class="group bg-surface-container-low border border-on-surface/5 rounded-[24px] overflow-hidden hover:shadow-xl transition-all duration-300">
-<div class="aspect-square relative overflow-hidden">
-<img alt="Classic Burger" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="A close-up of a classic cheeseburger with perfectly melted American cheese, crisp green lettuce, a juicy tomato slice, and red onion rings on a sesame bun. The style is bright and professional, utilizing soft directional lighting that highlights the freshness of the ingredients. The background is a clean, neutral-toned kitchen." src="https://lh3.googleusercontent.com/aida-public/AB6AXuArlFu-eet80MPfdwM8PEwIrZqNTusrAYmVPtbTCcaO1pvU9XcUtTDnJlJwiZe3fZ41NA9ivdJ2n_8Rt0qVAFxJQ2x52UKR4xynIETEcFC89ToQAdd_D7LnGM4mmAOyIj3XfZe4ApX7k3qsT5foilEXxc6JFv94w7opYqxPaRz8A91UepwG0YUz_C4LaFX5F01M-MJnoR3hlaDeis3kcwsBSY0pF3hNiOjCg3KEJRj3Q09sNdyJq0-1J_yLLJ0_uWRyCOixBzsNN5fn"/>
-<div class="absolute top-4 right-4 bg-inverse-surface text-background px-3 py-1 rounded-full text-label-sm uppercase">Բեսթսելլեր</div>
-</div>
-<div class="p-6">
-<div class="flex items-baseline justify-between">
-<h4 class="font-headline-md text-headline-md">Դասական</h4>
-<span class="dot-leader"></span>
-<span class="font-headline-md text-primary">$9.50</span>
-</div>
-<p class="mt-3 text-on-surface-variant font-body-md">Տավարի միս, չեդար, սալաթ, լոլիկ, գաղտնի սոուս.</p>
-<button class="mt-6 w-full py-3 rounded-lg border border-primary text-primary font-label-lg hover:bg-primary hover:text-on-primary transition-all">Ավելացնել</button>
-</div>
-</div>
-<!-- Item 2 -->
-<div class="group bg-surface-container-low border border-on-surface/5 rounded-[24px] overflow-hidden hover:shadow-xl transition-all duration-300">
-<div class="aspect-square relative overflow-hidden">
-<img alt="Double Stack" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="A massive double beef patty burger with extra layers of melting cheddar cheese, crispy bacon strips, and caramelized onions oozing out. The photography is intense and visceral, using a warm color palette with strong highlights on the glossy bacon. The setting is an industrial-style modern dining table." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3UH0QdQgg8W-L78OPefC6oBxbU90gopudHS_OURAuI-MAIxeveQUFwb9DGcQ022MOgzhhrt_i_7qBnZQdxtD-CR0qI0MJkVRJgS1OkgsBoI2kpv85B1Zcm5rNycye150m-l6waYTz7uvxTUdQ5MDtAWqKmbmbZD6QGJP4pTAGlFfRRXveMJn2SkdWO9Oh73-s3dgiLV3iOdHMlmgqSSEv3qBjdEoUCVnEYdtgZbMWgpueENNAiqnUuHHfTQhpCftq8sXz2mVzw1hK"/>
-</div>
-<div class="p-6">
-<div class="flex items-baseline justify-between">
-<h4 class="font-headline-md text-headline-md">Կրկնակի հարված</h4>
-<span class="dot-leader"></span>
-<span class="font-headline-md text-primary">$13.00</span>
-</div>
-<p class="mt-3 text-on-surface-variant font-body-md">Երկու կոտլետ, կրկնակի պանիր, քարամելացված սոխ, բեկոն.</p>
-<button class="mt-6 w-full py-3 rounded-lg border border-primary text-primary font-label-lg hover:bg-primary hover:text-on-primary transition-all">Ավելացնել</button>
-</div>
-</div>
-<!-- Item 3 -->
-<div class="group bg-surface-container-low border border-on-surface/5 rounded-[24px] overflow-hidden hover:shadow-xl transition-all duration-300">
-<div class="aspect-square relative overflow-hidden">
-<img alt="Inferno Burger" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="A spicy gourmet burger featuring bright green jalapeño slices, melting pepper jack cheese, and a vibrant red chipotle aioli sauce. The visual style is high-contrast and energetic, with warm lighting and a slightly shallow depth of field. The food is presented on a rustic dark wooden board, suggesting a high-end gastropub experience." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBeF6Lz0p73JchNEa5XxgtaINIFy6OHrH7UUXa3hlmN83h6zNlWIlcbPV_ZpgiLDYC3J5EmrvpDZaBlHlwP3Y5N5y6oPw_krXdLNRIetwtoCSYMIdIk3FpHzuHbidd_xrnchjs_gR-sUE71NWyEcbV8PqSl9-LsUXwI7XuJtEn1zHv8yOlOjTFx6Hnpqf9daM1fDzqgUfyVrKhEpSIVGJ0D8s2fe_mWnsLnvWfVST5kUiP1ciKUYCEj9nVjnyDKK3VI1hbV_52zNYWf"/>
-</div>
-<div class="p-6">
-<div class="flex items-baseline justify-between">
-<h4 class="font-headline-md text-headline-md">Ինֆերնո</h4>
-<span class="dot-leader"></span>
-<span class="font-headline-md text-primary">$11.50</span>
-</div>
-<p class="mt-3 text-on-surface-variant font-body-md">Խալապենո, պեպեր ջեք, չիպոտլե այոլի, ճռճռան սոխ.</p>
-<button class="mt-6 w-full py-3 rounded-lg border border-primary text-primary font-label-lg hover:bg-primary hover:text-on-primary transition-all">Ավելացնել</button>
-</div>
-</div>
-<!-- Item 4 -->
-<div class="group bg-surface-container-low border border-on-surface/5 rounded-[24px] overflow-hidden hover:shadow-xl transition-all duration-300">
-<div class="aspect-square relative overflow-hidden">
-<img alt="Smokehouse" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="A premium BBQ burger stacked high with a thick beef patty, crispy onion rings, smoked cheddar cheese, and a dark, glossy BBQ sauce dripping down the sides. The mood is rustic yet refined, with warm lighting that captures the steam rising from the hot meat. The composition is dynamic, emphasizing the height and layers of the burger." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBN9Bs9Sc8bZwYe5KTFOdXCpOEAWu1JNdhm7SqMQcJtKXa7-zQBX0HfcHXfPICo-AxdLcAkrdjOBDLZER3s7Vx2eI9EgsbdiIv3IEts5nc08Ss-cfU65f2Y6mRQrgW5XNG9JyQBouUXhVLh_CRXPy_MvMc78LnJBsYEyJxfmI-oeV-EIejcLN9UaQytGo-CokSd4KCBUhQsTXziuffVwtawjGVWda34FBI7pDo6EeYoZNeq5Yy-7gUy_dODhnxBqQ4S9PJCQbrVKEpK"/>
-</div>
-<div class="p-6">
-<div class="flex items-baseline justify-between">
-<h4 class="font-headline-md text-headline-md">Սմոքհաուս</h4>
-<span class="dot-leader"></span>
-<span class="font-headline-md text-primary">$12.50</span>
-</div>
-<p class="mt-3 text-on-surface-variant font-body-md">BBQ տավար, բեկոն, սոխի օղակներ, ապխտած չեդար.</p>
-<button class="mt-6 w-full py-3 rounded-lg border border-primary text-primary font-label-lg hover:bg-primary hover:text-on-primary transition-all">Ավելացնել</button>
-</div>
-</div>
-<!-- Item 5 -->
-<div class="group bg-surface-container-low border border-on-surface/5 rounded-[24px] overflow-hidden hover:shadow-xl transition-all duration-300">
-<div class="aspect-square relative overflow-hidden">
-<img alt="Green Machine" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="A sophisticated plant-based burger featuring a textured black bean patty, fresh slices of ripe avocado, bright pink radishes, and vibrant green sprouts on a multi-seed bun. The lighting is soft and natural, emphasizing a healthy and fresh aesthetic. The palette consists of earthy tones with pops of vibrant green and pink." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRLOXeE8CKyniCFP3ETy6WjtT26ZNKZWozDAWSRtAZPyVxIsuwSZ5nePRo9yZr6q4IOk_D5-VU44WqdLKiP8HZoLlld5MrIb4JuxlO6cmAAe9Q3D5L6-V2k07czjJaPf3HCxCh22Tlg2rO7UCxUU6oOTJjU06Ru3SENaveR98E5jQAQtidNKCTGOI0TwGvpS9lYuFSlP3GKAXzRhNgsBb8PILrUyhYm2DJdCZ_iPDmVSfxZz0wecwzlE1eHs8dc6xuqMj1-RXHnEwI"/>
-</div>
-<div class="p-6">
-<div class="flex items-baseline justify-between">
-<h4 class="font-headline-md text-headline-md">Կանաչ մեքենա</h4>
-<span class="dot-leader"></span>
-<span class="font-headline-md text-primary">$10.00</span>
-</div>
-<p class="mt-3 text-on-surface-variant font-body-md">Սև լոբու կոտլետ, ավոկադո, բողկ, ծիլեր, թահինի.</p>
-<button class="mt-6 w-full py-3 rounded-lg border border-primary text-primary font-label-lg hover:bg-primary hover:text-on-primary transition-all">Ավելացնել</button>
-</div>
-</div>
-<!-- Item 6 -->
-<div class="group bg-surface-container-low border border-on-surface/5 rounded-[24px] overflow-hidden hover:shadow-xl transition-all duration-300">
-<div class="aspect-square relative overflow-hidden">
-<img alt="Truffle Royal" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="A luxurious Wagyu beef burger topped with white truffle mayonnaise, melted Gruyere cheese, and delicate shallots. The presentation is elegant and minimalist, shot in a high-end restaurant style with clean, soft lighting. The focus is sharp on the luxurious textures of the beef and the glossy truffle aioli." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSkaHbq1Brn6Ey4_ThWoCa8LPd7teuMSpnOTOh2XBu2NAhZK_Lqzjr40706nZFt1h2KquLmXNShRC5S9LY1aTB_V2WBveSMIDgJayPzDfNap8qFBRg6Vr7Q2Ss-j29lhv4DFKjDqyJ5wrwRlUq3NcVljAqQAzr0S8ue97i-E88Sr94AblVQ7sHg77H5GYIkITvP334xULmGfUUo5W5V64PCtcL_5HyBZlAg-bZmSH3tHB3qPaDiIzR3Am5w9rE3SdswsjJ7L8Xg18a"/>
-</div>
-<div class="p-6">
-<div class="flex items-baseline justify-between">
-<h4 class="font-headline-md text-headline-md">Տրյուֆել Ռոյալ</h4>
-<span class="dot-leader"></span>
-<span class="font-headline-md text-primary">$16.00</span>
-</div>
-<p class="mt-3 text-on-surface-variant font-body-md">Վագյու, տրյուֆելի մայոնեզ, գրյուեր, շալոտ.</p>
-<button class="mt-6 w-full py-3 rounded-lg border border-primary text-primary font-label-lg hover:bg-primary hover:text-on-primary transition-all">Ավելացնել</button>
-</div>
-</div>
-</div>
-</section>
-<!-- Gallery & Reviews -->
-<section class="bg-surface-container-low py-stack-lg reveal">
-<div class="max-w-container-max mx-auto px-margin-mobile">
-<div class="mb-stack-md">
-<span class="text-primary font-bold tracking-tighter text-body-lg">— Թարմ՝ թավայից</span>
-<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg">Գրիլից ուղիղ</h2>
-</div>
-<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-stack-lg">
-<div class="aspect-square rounded-2xl overflow-hidden hover:scale-95 transition-transform duration-500">
-<img alt="Grill Close" class="w-full h-full object-cover" data-alt="A close-up of a chef smashing a beef patty on a hot, steaming chrome griddle. Sparks and smoke are captured in a dynamic, high-velocity shot. The lighting is dramatic, highlighting the sear on the meat. The aesthetic is industrial and high-energy." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAj5XPsc4SZEVoSVImwX9C3zAmEZLWRIYWa8LJU0A9x_GuQAF53f5-lZRtkd8Iq2LPrcL4Y5rhSgIOiTZDjAust6EcKZkEAtcx6X15RGWoXy1oBgGdRGiziOJnZi3_GDBntmfEAzvLOp6moojx0v63u0lLXCnayHRbztq4N28RQqNpykFdF7Q40RxyOXRBJN4s5vmfPXA6i2TayIeYDziFlgJLd65-QMXMjio7qlAgt3sNt7WaEsYXP0cxjcRSY-NbZ7qOdBgLaI7JF"/>
-</div>
-<div class="aspect-[3/4] md:row-span-2 rounded-2xl overflow-hidden hover:scale-95 transition-transform duration-500">
-<img alt="Burger Prep" class="w-full h-full object-cover" data-alt="A beautiful, vertical composition showing a stack of freshly baked brioche buns, their golden-brown crusts shimmering under warm kitchen lights. A hand is seen in the background preparing fresh ingredients like tomatoes and lettuce. The overall mood is artisanal and meticulous." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiORjZA84gA_aMX1gj1m7LkK4TpkkdRRDrOrdWO9MBU6TDjHJoi5oXc7A06KFt2MWLJIl9U7scOIWydT_NeXeV9rWvpzsbswARP-2nEBKgYLJt4EvSXmrg3ZijA_yTrlTQiftW4sL-K0ITrhJsy5_KXNULwNsfHL2EKey4J4dPMWdmtl_sf_Qbvm-GqUwS4Mu4Zia16emVA8-OAz2a0_NBIFhfuiCoJ3D2og-ZNyQps1UeNlh3FNAK1kqlUQS3bBI7lu-07wBEHoO_"/>
-</div>
-<div class="aspect-square rounded-2xl overflow-hidden hover:scale-95 transition-transform duration-500">
-<img alt="Fries" class="w-full h-full object-cover" data-alt="Golden, crispy french fries seasoned with sea salt and fresh herbs, served in a minimalist white bowl. The lighting is high-key and bright, emphasizing the crunchy texture of the potatoes. The style is clean, modern, and appetizing." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDmxMjN9C7DfjcwntROUZYRVnC_XXgQCABTsqGayF8lkUII07eJczN9Y9HKlJpiM2yRlqfctiUi1wJXHF_MpGGbTaop9EZxpKMa9VRQBG4BSD39Pt239847NFvzaFo-gAfTm4PTf5kfKFs9xvOzpO0Gpzue1H972iTK7Kv9a11Y4pVSVMw0mDg1458COaLwB-_kFaqM3fjEqFiStUBv5qIEFTuWjgXYnULzUuRNgn1vsHO_lg7OC2rBunmHbiXBl7bOSS3V_YhzZAnx"/>
-</div>
-<div class="aspect-square rounded-2xl overflow-hidden hover:scale-95 transition-transform duration-500">
-<img alt="Sauce Pour" class="w-full h-full object-cover" data-alt="A slow-motion style capture of a creamy, signature burger sauce being drizzled over a hot patty. The lighting captures the smooth, glossy texture of the sauce and the steam from the meat. The composition is artistic and focuses on culinary precision." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8j9T2_4dQlnlEs0h_vlVv9rx-V5NimjO7QK1bzLN1Jf8pa_jd4FKV7k3PEZoGqDraRalO_2txaEn2RdQNnYTfU6OsUdZFzbPGiv63-LXErgI7TyudFs_w23soEKxxID8T0h8XB9iarac8fwsl9qUnbmDAoyObjfbNr4u1ph4l_0eQ7BpOoHObigNZ9JVGVAaG13uU9XOzeEVAICFth5yBtdOtNaMahoM9QRwKpSl-sun4CLbE34mfO9LI9r_1ziwSIcNn_QuHbj4G"/>
-</div>
-<div class="aspect-square md:col-start-3 rounded-2xl overflow-hidden hover:scale-95 transition-transform duration-500">
-<img alt="Ingredients" class="w-full h-full object-cover" data-alt="A flat-lay photography of fresh premium ingredients used in the burgers: heirloom tomatoes, crisp romaine lettuce, artisanal cheese blocks, and jars of spices. The aesthetic is high-end bistro, with a clean and natural color palette." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBJSIsmw1b0X9iivkRxXBQzs3oaN38HrVPvwG2e3aDyv4fV0gC7TwGQy_sy6UPKh-r90teYGrl7VPF1u2HyWE8uLdKfo645pU8H9n2BR1MEBqqlTo1FaNd893JOj1rt98OjAcXay4uBcFRi7M6K3oD4vAZlH8YFj4GSV4TwtcKWW-15JZK4uJPj-Jf2s9fF8XjdxX0qHtKjxZzshx1nCUmUDhFLL7WbB4bwLN4zjHTmESKKolkNc9RCjsct-2cYGCt3lo8LH7AXLBZu"/>
-</div>
-<div class="aspect-square rounded-2xl overflow-hidden hover:scale-95 transition-transform duration-500">
-<img alt="Drinks" class="w-full h-full object-cover" data-alt="A refreshing, ice-cold artisanal cola served in a tall glass with a lemon wedge, sitting on a condensation-covered table. The lighting is bright and summery, creating a sense of immediate thirst-quenching satisfaction." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDoZrvaXCURVgr96Hx54BBfgcPsL3htYqpfQp_IjuXjcgUeyLRP2p7vCfeJGgSUAEBaNY3dV7VtOFwmM7Lve4oxzz57gUQ8fryXZY-AJLbE1YztAQhHo280gybzFMJNJGuo_OtMqE9tH_ohHVrHJypfiBoaCGCkS2xegrT1TxFF3wbNxnTgb8B2wFTpiGLkka71tvIhsVDWeET0Tr4Mmyg10zzcFBU3A5WNiPw70YQZcVIsCVeddNvAFD5cfOOydEvihfkJqJNF1iJd"/>
-</div>
-</div>
-<div class="pt-stack-lg border-t border-on-surface/10">
-<div class="mb-stack-md text-center">
-<span class="text-primary font-bold tracking-tighter text-body-lg">— Իրական խոսքեր</span>
-<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg">Տեղացիների սերը</h2>
-</div>
-<div class="flex flex-col md:flex-row gap-gutter">
-<div class="flex-1 bg-surface-container border border-on-surface/5 p-8 rounded-[32px] space-y-4 shadow-sm">
-<div class="flex text-primary">
-<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-</div>
-<p class="font-body-lg italic">«Ինֆերնոն լավագույն կծու բուրգերն է, որը ես երբևէ փորձել եմ Երևանում։ Անպայման պետք է փորձել։»</p>
-<div class="flex items-center gap-3">
-<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center font-bold text-primary">Մ</div>
-<span class="font-headline-md text-headline-md !text-body-md">Մարիամ Կ.</span>
-</div>
-</div>
-<div class="flex-1 bg-surface-container border border-on-surface/5 p-8 rounded-[32px] space-y-4 shadow-sm">
-<div class="flex text-primary">
-<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-</div>
-<p class="font-body-lg italic">«Տրյուֆել Ռոյալը իսկական շքեղություն է։ Միսը ուղղակի հալվում է բերանում։»</p>
-<div class="flex items-center gap-3">
-<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center font-bold text-primary">Դ</div>
-<span class="font-headline-md text-headline-md !text-body-md">Դավիթ Ա.</span>
-</div>
-</div>
-</div>
+<div class="relative z-10 max-w-container-max mx-auto px-md text-center">
+<h2 class="font-display-lg text-display-lg-mobile md:text-headline-xl text-primary mb-md uppercase">Ready To Join The Fire?</h2>
+<p class="font-body-lg text-on-surface-variant max-w-xl mx-auto mb-lg">
+                    Experience the intensity of Sizzle &amp; Grain. Tables fill fast, but the grill never stops.
+                </p>
+<div class="flex flex-col sm:flex-row gap-md justify-center">
+<button class="bg-secondary text-on-secondary px-xl py-md font-display-lg text-2xl uppercase transition-all hover:scale-105 active:scale-95">View Menu</button>
+<button class="bg-primary text-on-primary-container px-xl py-md font-display-lg text-2xl uppercase transition-all hover:scale-105 active:scale-95">Book A Table</button>
 </div>
 </div>
 </section>
 </main>
-<!-- BottomNavBar (Mobile Only) -->
-<nav class="md:hidden bg-surface border-t border-on-surface/5 shadow-[0_-10px_30px_-5px_rgba(188,2,5,0.05)] fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-safe pt-2">
-<button class="flex flex-col items-center justify-center bg-primary-container text-on-primary-container rounded-xl px-5 py-2 transition-all duration-300">
-<span class="material-symbols-outlined">restaurant_menu</span>
-<span class="font-label-lg text-label-lg">Menu</span>
-</button>
-<button class="flex flex-col items-center justify-center text-on-surface-variant px-5 py-2 transition-all duration-300 hover:bg-surface-container-high rounded-xl">
-<span class="material-symbols-outlined">photo_library</span>
-<span class="font-label-lg text-label-lg">Gallery</span>
-</button>
-<button class="flex flex-col items-center justify-center text-on-surface-variant px-5 py-2 transition-all duration-300 hover:bg-surface-container-high rounded-xl">
-<span class="material-symbols-outlined">receipt_long</span>
-<span class="font-label-lg text-label-lg">Orders</span>
-</button>
-<button class="flex flex-col items-center justify-center text-on-surface-variant px-5 py-2 transition-all duration-300 hover:bg-surface-container-high rounded-xl">
-<span class="material-symbols-outlined">person</span>
-<span class="font-label-lg text-label-lg">Profile</span>
-</button>
-</nav>
-<!-- Footer -->
-<footer class="bg-surface-container-low py-stack-md mt-stack-lg w-full px-margin-mobile md:px-margin-desktop flex flex-col gap-gutter">
-<div class="flex flex-col md:flex-row justify-between items-start gap-gutter">
-<div class="space-y-4">
-<span class="font-headline-md text-headline-md font-bold text-on-surface">FLAME &amp; GRIT</span>
-<p class="text-on-surface-variant font-body-md max-w-xs">Ռաֆինացված կրակ։ Հյուսիսային պողոտա 12, Երևան</p>
-<p class="text-primary font-bold">+374 10 555 000</p>
+<!-- Footer Shell -->
+<footer class="w-full bg-surface-container-lowest border-t border-surface-container-highest">
+<div class="flex flex-col md:flex-row justify-between items-center px-lg py-xl w-full max-w-container-max mx-auto gap-md">
+<div class="flex flex-col gap-xs items-center md:items-start">
+<span class="font-display-lg text-display-lg text-primary uppercase">SIZZLE &amp; GRAIN</span>
+<p class="font-body-md text-on-surface-variant opacity-70">© 2024 SIZZLE &amp; GRAIN. SMASHED. STACKED. SERVED.</p>
 </div>
-<div class="grid grid-cols-2 gap-x-gutter gap-y-2">
-<a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Մեր մասին</a>
-<a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Առաքում</a>
-<a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Կապ</a>
-<a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Կարիերա</a>
+<div class="flex flex-wrap justify-center gap-md">
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-colors hover:underline decoration-primary underline-offset-4" href="#">Instagram</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-colors hover:underline decoration-primary underline-offset-4" href="#">Facebook</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-colors hover:underline decoration-primary underline-offset-4" href="#">TikTok</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-colors hover:underline decoration-primary underline-offset-4" href="#">Careers</a>
 </div>
-<div class="space-y-2">
-<span class="text-label-sm uppercase tracking-widest text-on-surface-variant">Աշխատանքային ժամեր</span>
-<p class="font-body-md font-bold">Ամեն օր 11:00 – 23:00</p>
-</div>
-</div>
-<div class="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-on-surface/10 gap-4">
-<p class="text-on-surface-variant font-body-md">© 2024 Sizzle &amp; Grain. Refined Heat.</p>
-<div class="flex gap-6">
-<a class="text-on-surface-variant hover:text-primary transition-colors" href="#">English</a>
-<a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Russian</a>
-<a class="text-primary font-bold underline" href="#">Հայերեն</a>
+<div class="flex gap-md">
+<span class="text-secondary font-bold font-body-md cursor-pointer">English</span>
+<span class="text-on-surface-variant font-body-md cursor-pointer hover:text-primary transition-colors">Armenian</span>
 </div>
 </div>
 </footer>
+<!-- Bottom Nav for Mobile -->
+<nav class="md:hidden fixed bottom-0 w-full z-50 flex justify-around items-center px-4 pb-4 pt-2 bg-surface-container-high shadow-lg">
+<div class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-1 hover:text-secondary transition-colors">
+<span class="material-symbols-outlined" data-icon="restaurant_menu">restaurant_menu</span>
+<span class="font-label-bold text-[10px] uppercase">Menu</span>
+</div>
+<div class="flex flex-col items-center justify-center text-primary bg-surface-variant/20 rounded-xl px-4 py-1">
+<span class="material-symbols-outlined" data-icon="history_edu">history_edu</span>
+<span class="font-label-bold text-[10px] uppercase">Story</span>
+</div>
+<div class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-1 hover:text-secondary transition-colors">
+<span class="material-symbols-outlined" data-icon="receipt_long">receipt_long</span>
+<span class="font-label-bold text-[10px] uppercase">Orders</span>
+</div>
+<div class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-1 hover:text-secondary transition-colors">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="font-label-bold text-[10px] uppercase">Profile</span>
+</div>
+</nav>
 <script>
-        // Simple Intersection Observer for scroll animations
-        const observerOptions = {
-            threshold: 0.1
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('active');
+        // Micro-interactions and subtle effects
+        document.addEventListener('mousemove', (e) => {
+            const glow = document.querySelectorAll('.ember-glow');
+            glow.forEach(el => {
+                const rect = el.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                
+                if (x > 0 && x < rect.width && y > 0 && y < rect.height) {
+                    el.style.boxShadow = `0 0 50px -10px rgba(255, 180, 169, 0.3)`;
+                } else {
+                    el.style.boxShadow = '';
                 }
             });
-        }, observerOptions);
+        });
 
-        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-
-        // Active state click handling for buttons
-        document.querySelectorAll('button').forEach(btn => {
-            btn.addEventListener('mousedown', () => btn.classList.add('scale-95'));
-            btn.addEventListener('mouseup', () => btn.classList.remove('scale-95'));
-            btn.addEventListener('mouseleave', () => btn.classList.remove('scale-95'));
+        // Interactive button scale
+        const buttons = document.querySelectorAll('button');
+        buttons.forEach(btn => {
+            btn.addEventListener('mousedown', () => {
+                btn.style.transform = 'scale(0.96)';
+            });
+            btn.addEventListener('mouseup', () => {
+                btn.style.transform = 'scale(1)';
+            });
+            btn.addEventListener('mouseleave', () => {
+                btn.style.transform = 'scale(1)';
+            });
         });
     </script>
 </body></html>
